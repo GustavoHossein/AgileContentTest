@@ -10,9 +10,10 @@
 		48894BB92D56442200C52BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48894BB82D56442200C52BD3 /* AppDelegate.swift */; };
 		48894BBB2D56442200C52BD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48894BBA2D56442200C52BD3 /* SceneDelegate.swift */; };
 		48894BBD2D56442200C52BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48894BBC2D56442200C52BD3 /* ViewController.swift */; };
-		48894BC02D56442200C52BD3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48894BBF2D56442200C52BD3 /* Base */; };
 		48894BC22D56442300C52BD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48894BC12D56442300C52BD3 /* Assets.xcassets */; };
 		48894BC52D56442300C52BD3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48894BC42D56442300C52BD3 /* Base */; };
+		48894BF42D567A8200C52BD3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48894BF32D567A8200C52BD3 /* HomeViewController.swift */; };
+		48894BF62D567D5C00C52BD3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48894BF52D567D5C00C52BD3 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +21,11 @@
 		48894BB82D56442200C52BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48894BBA2D56442200C52BD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		48894BBC2D56442200C52BD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		48894BBF2D56442200C52BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48894BC12D56442300C52BD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48894BC42D56442300C52BD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48894BC62D56442300C52BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48894BF32D567A8200C52BD3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		48894BF52D567D5C00C52BD3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,8 @@
 				48894BB82D56442200C52BD3 /* AppDelegate.swift */,
 				48894BBA2D56442200C52BD3 /* SceneDelegate.swift */,
 				48894BBC2D56442200C52BD3 /* ViewController.swift */,
-				48894BBE2D56442200C52BD3 /* Main.storyboard */,
+				48894BF32D567A8200C52BD3 /* HomeViewController.swift */,
+				48894BF52D567D5C00C52BD3 /* ProfileViewController.swift */,
 				48894BC12D56442300C52BD3 /* Assets.xcassets */,
 				48894BC32D56442300C52BD3 /* LaunchScreen.storyboard */,
 				48894BC62D56442300C52BD3 /* Info.plist */,
@@ -127,7 +130,6 @@
 			files = (
 				48894BC22D56442300C52BD3 /* Assets.xcassets in Resources */,
 				48894BC52D56442300C52BD3 /* Base in Resources */,
-				48894BC02D56442200C52BD3 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +142,15 @@
 			files = (
 				48894BBD2D56442200C52BD3 /* ViewController.swift in Sources */,
 				48894BB92D56442200C52BD3 /* AppDelegate.swift in Sources */,
+				48894BF62D567D5C00C52BD3 /* ProfileViewController.swift in Sources */,
 				48894BBB2D56442200C52BD3 /* SceneDelegate.swift in Sources */,
+				48894BF42D567A8200C52BD3 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		48894BBE2D56442200C52BD3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				48894BBF2D56442200C52BD3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		48894BC32D56442300C52BD3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
