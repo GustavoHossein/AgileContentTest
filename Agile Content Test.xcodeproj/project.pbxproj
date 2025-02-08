@@ -14,6 +14,7 @@
 		48894BC52D56442300C52BD3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 48894BC42D56442300C52BD3 /* Base */; };
 		48894BF42D567A8200C52BD3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48894BF32D567A8200C52BD3 /* HomeViewController.swift */; };
 		48894BF62D567D5C00C52BD3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48894BF52D567D5C00C52BD3 /* ProfileViewController.swift */; };
+		48894C722D58158E00C52BD3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48894C712D58158E00C52BD3 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		48894BC62D56442300C52BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48894BF32D567A8200C52BD3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		48894BF52D567D5C00C52BD3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		48894C712D58158E00C52BD3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				48894BC12D56442300C52BD3 /* Assets.xcassets */,
 				48894BC32D56442300C52BD3 /* LaunchScreen.storyboard */,
 				48894BC62D56442300C52BD3 /* Info.plist */,
+				48894C712D58158E00C52BD3 /* Models.swift */,
 			);
 			path = "Agile Content Test";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				48894BBD2D56442200C52BD3 /* ViewController.swift in Sources */,
 				48894BB92D56442200C52BD3 /* AppDelegate.swift in Sources */,
 				48894BF62D567D5C00C52BD3 /* ProfileViewController.swift in Sources */,
+				48894C722D58158E00C52BD3 /* Models.swift in Sources */,
 				48894BBB2D56442200C52BD3 /* SceneDelegate.swift in Sources */,
 				48894BF42D567A8200C52BD3 /* HomeViewController.swift in Sources */,
 			);
@@ -293,7 +297,6 @@
 				INFOPLIST_FILE = "Agile Content Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -321,7 +324,6 @@
 				INFOPLIST_FILE = "Agile Content Test/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
