@@ -21,7 +21,7 @@ class HomeViewController: UIViewController {
     private let searchButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Search", for: .normal)
-        //button.addTarget(self, action: #selector(searchTapped), for: .touchUpInside)
+        button.addTarget(self, action: #selector(searchTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -47,10 +47,10 @@ class HomeViewController: UIViewController {
         ])
     }
     
-//    @objc private func searchTapped() {
-//        guard let username = usernameTextField.text, !username.isEmpty else { return }
-//        let profileVC = profileViewController(username: username)
-//        navigationController?.pushViewController(profileVC, animated: true)
-//    }
-//    
+    @objc private func searchTapped() {
+        guard let username = usernameTextField.text, !username.isEmpty else { return }
+        let profileVC = ProfileViewController(username: username)
+        navigationController?.pushViewController(profileVC, animated: true)
+    }
+    
 }
