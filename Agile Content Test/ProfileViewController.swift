@@ -31,6 +31,7 @@ class ProfileDetailViewController: UIViewController {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupViews()
+        tableView.register(RepositoryCell.self, forCellReuseIdentifier: "RepositoryCell")
     }
 
     private func setupViews() {
@@ -67,17 +68,10 @@ extension ProfileDetailViewController: UITableViewDelegate, UITableViewDataSourc
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RepositoryCell", for: indexPath) as! RepositoryCell
         let repo = repos[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "repoCell", for: indexPath)
-        cell.textLabel?.text = repo.name
-        if let language = repo.language {
-            cell.detailTextLabel?.text = "Language: \(language)"
-        } else {
-            cell.detailTextLabel?.text = "Language: Unknown"
-        }
+        cell.configure(with: repo)
         return cell
     }
+
 }
-
-
-
