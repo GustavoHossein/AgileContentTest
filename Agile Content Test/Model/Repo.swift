@@ -7,13 +7,13 @@
 
 import Foundation
 
-// Model for Repo
+// MARK: - Repository Model
 struct Repo: Codable {
     let name: String
     let language: String?
 }
 
-// Model for User
+// MARK: - User Profile Template
 struct UserProfile: Codable {
     let login: String
     let avatar_url: String

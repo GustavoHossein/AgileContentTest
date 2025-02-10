@@ -9,6 +9,8 @@ import Foundation
 import UIKit
 
 class RepositoryCell: UITableViewCell {
+    
+    // MARK: - Properties
     static let identifier = "RepositoryCell"
     
     private let nameLabel: UILabel = {
@@ -27,6 +29,7 @@ class RepositoryCell: UITableViewCell {
         return label
     }()
     
+    // MARK: - Initializer
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         contentView.addSubview(nameLabel)
@@ -42,15 +45,14 @@ class RepositoryCell: UITableViewCell {
             languageLabel.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10)
         ])
     }
-    
+    // MARK: - Required Init
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
+    // MARK: - Configuration
     func configure(with repo: Repo) {
         nameLabel.text = repo.name
         languageLabel.text = repo.language ?? "No Language"
     }
-
 }
-
